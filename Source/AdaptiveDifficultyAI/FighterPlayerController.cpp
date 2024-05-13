@@ -8,6 +8,11 @@
 #include "InputActionValue.h"
 #include "FighterBase.h"
 
+void AFighterPlayerController::SetControlledFighter(AFighterBase* Fighter)
+{
+	ControlledFighter = Fighter;
+}
+
 void AFighterPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();

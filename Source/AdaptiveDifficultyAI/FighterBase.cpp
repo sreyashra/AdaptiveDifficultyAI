@@ -69,6 +69,7 @@ void AFighterBase::SpecialAttack2()
 void AFighterBase::MoveImpl(float Value)
 {
 	//Movement logic here
+	UE_LOG(LogTemp, Warning, TEXT("Moving"));
 }
 
 void AFighterBase::JumpImpl()

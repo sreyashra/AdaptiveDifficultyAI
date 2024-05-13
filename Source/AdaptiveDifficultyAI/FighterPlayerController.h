@@ -29,6 +29,9 @@ class ADAPTIVEDIFFICULTYAI_API AFighterPlayerController : public APlayerControll
 {
 	GENERATED_BODY()
 
+public:
+	void SetControlledFighter(AFighterBase* Fighter);
+
 protected:
 	virtual void SetupInputComponent() override;
 
